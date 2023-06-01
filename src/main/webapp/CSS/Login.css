@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+	background-image: url(../image/login.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+form{
+	width:60%;
+	margin: 30px auto;
+}
+
+#formTitle{
+	color: orange;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+input{
+	line-height: 30px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+button #zhuce {
+	color: white;
+	font-size:40px;
+	display: block;
+	padding: 10px 30px;
+	margin: 0 auto;
+	background: orange;
+	border: solid orange;
+}
+button:hover {
+	color: orange;
+	border: solid orange;
+	background: white;
+}
